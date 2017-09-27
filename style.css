@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px dotted darkred; */
+}
+
+#wrapper{
+    width: 500px;
+    height: 970px;
+    margin: 0px auto;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1{
+    border-bottom: 1px solid black;
+    margin-bottom:20px
+}
+
+#addUser{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    flex-direction:column;
+}
+li{
+    align-self: flex-end;
+}
+
+button{
+    margin-top: 20px;
+}
+
+th{
+    text-align: left;
+}
+
+tr{
+    text-align: center;
+}
+
